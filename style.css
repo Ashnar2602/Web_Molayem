@@ -45,13 +45,39 @@ body {
     gap: 2rem;
 }
 
-.logo h1 {
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+    filter: drop-shadow(0 0 10px rgba(0, 170, 255, 0.3));
+    transition: all 0.3s ease;
+}
+
+.logo-image:hover {
+    filter: drop-shadow(0 0 20px rgba(0, 170, 255, 0.6));
+    transform: scale(1.05);
+}
+
+.logo-text {
     font-family: 'Orbitron', monospace;
     font-weight: 900;
     font-size: 1.8rem;
     color: #00aaff;
     text-shadow: 0 0 20px rgba(0, 170, 255, 0.5);
     letter-spacing: 2px;
+    margin: 0;
+}
+
+/* Backward compatibility - remove old h1 styling */
+.logo h1 {
+    display: none;
 }
 
 .strategic {
@@ -476,6 +502,20 @@ body {
     .nav-container {
         flex-direction: row;
         gap: 1rem;
+    }
+    
+    .logo {
+        gap: 0.5rem;
+    }
+    
+    .logo-image {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .logo-text {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
     }
     
     .main-navigation .nav-menu {
