@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Molayem Strategic - Augmented Data Analytics</title>
-    <link rel="stylesheet" href="style.css">
+    <title>About - Molayem Strategic</title>
+    <link rel="stylesheet" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,17 +13,17 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="logo">
-                    <h1>MOLAYEM <span class="strategic">STRATEGIC</span></h1>
+                    <a href="../index.html"><h1>MOLAYEM <span class="strategic">STRATEGIC</span></h1></a>
                 </div>
                 
                 <!-- Main Navigation -->
                 <div class="main-navigation">
                     <ul class="nav-menu">
-                        <li><a href="index.html" class="nav-link active" data-translate="nav.home">Home</a></li>
-                        <li><a href="pages/solutions.html" class="nav-link" data-translate="nav.solutions">Solutions</a></li>
-                        <li><a href="pages/about.html" class="nav-link" data-translate="nav.about">About</a></li>
-                        <li><a href="pages/clients.html" class="nav-link" data-translate="nav.clients">Clients</a></li>
-                        <li><a href="pages/contact.html" class="nav-link contact-btn" data-translate="nav.contact">Contact</a></li>
+                        <li><a href="../index.html" class="nav-link" data-translate="nav.home">Home</a></li>
+                        <li><a href="solutions.html" class="nav-link" data-translate="nav.solutions">Solutions</a></li>
+                        <li><a href="about.html" class="nav-link active" data-translate="nav.about">About</a></li>
+                        <li><a href="clients.html" class="nav-link" data-translate="nav.clients">Clients</a></li>
+                        <li><a href="contact.html" class="nav-link contact-btn" data-translate="nav.contact">Contact</a></li>
                     </ul>
                     
                     <!-- Mobile Menu Toggle -->
@@ -43,11 +43,11 @@
             <!-- Mobile Menu -->
             <div class="mobile-menu">
                 <ul class="mobile-nav-menu">
-                    <li><a href="index.html" class="mobile-nav-link" data-translate="nav.home">Home</a></li>
-                    <li><a href="pages/solutions.html" class="mobile-nav-link" data-translate="nav.solutions">Solutions</a></li>
-                    <li><a href="pages/about.html" class="mobile-nav-link" data-translate="nav.about">About</a></li>
-                    <li><a href="pages/clients.html" class="mobile-nav-link" data-translate="nav.clients">Clients</a></li>
-                    <li><a href="pages/contact.html" class="mobile-nav-link" data-translate="nav.contact">Contact</a></li>
+                    <li><a href="../index.html" class="mobile-nav-link" data-translate="nav.home">Home</a></li>
+                    <li><a href="solutions.html" class="mobile-nav-link" data-translate="nav.solutions">Solutions</a></li>
+                    <li><a href="about.html" class="mobile-nav-link" data-translate="nav.about">About</a></li>
+                    <li><a href="clients.html" class="mobile-nav-link" data-translate="nav.clients">Clients</a></li>
+                    <li><a href="contact.html" class="mobile-nav-link" data-translate="nav.contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -56,7 +56,13 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="container">
-            <!-- Hero Section -->
+            <!-- Page Header -->
+            <section class="page-header">
+                <h1 class="page-title" data-translate="about.title">Chi Siamo</h1>
+                <p class="page-subtitle" data-translate="about.subtitle">Esperti in Augmented Data Analytics per il settore pubblico</p>
+            </section>
+
+            <!-- Under Construction -->
             <section class="hero">
                 <div class="hero-content">
                     <div class="tech-decoration">
@@ -70,17 +76,10 @@
                         </div>
                     </div>
                     
-                    <h2 class="hero-title" data-translate="hero.title">
-                        Augmented Data Analytics
-                    </h2>
-                    <p class="hero-subtitle" data-translate="hero.subtitle">
-                        Soluzioni avanzate di analisi dati per istituzioni governative e federali
-                    </p>
-                    
                     <div class="under-construction">
-                        <div class="construction-icon">⚠️</div>
+                        <div class="construction-icon">👥</div>
                         <h3 data-translate="construction.title">UNDER CONSTRUCTION</h3>
-                        <p data-translate="construction.message">Stiamo lavorando per portarvi la migliore esperienza di analytics</p>
+                        <p data-translate="about.construction">Stiamo preparando la presentazione del nostro team e della nostra storia</p>
                         <div class="progress-bar">
                             <div class="progress"></div>
                         </div>
@@ -88,20 +87,23 @@
                 </div>
             </section>
 
-            <!-- Features Preview -->
+            <!-- Company Preview -->
             <section class="features-preview">
                 <div class="features-grid">
                     <div class="feature-card">
-                        <div class="feature-icon">📊</div>
-                        <h4 data-translate="features.analytics">Analytics Avanzati</h4>
+                        <div class="feature-icon">🎯</div>
+                        <h4 data-translate="about.mission">La Nostra Missione</h4>
+                        <p data-translate="about.mission.desc">Trasformare i dati in insights strategici per il settore pubblico</p>
                     </div>
                     <div class="feature-card">
-                        <div class="feature-icon">🏛️</div>
-                        <h4 data-translate="features.government">Settore Governativo</h4>
+                        <div class="feature-icon">🚀</div>
+                        <h4 data-translate="about.vision">La Nostra Visione</h4>
+                        <p data-translate="about.vision.desc">Diventare il leader nell'analytics per le istituzioni governative</p>
                     </div>
                     <div class="feature-card">
-                        <div class="feature-icon">🔍</div>
-                        <h4 data-translate="features.insights">Data Insights</h4>
+                        <div class="feature-icon">⭐</div>
+                        <h4 data-translate="about.values">I Nostri Valori</h4>
+                        <p data-translate="about.values.desc">Innovazione, sicurezza, trasparenza e eccellenza</p>
                     </div>
                 </div>
             </section>
@@ -115,6 +117,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 </body>
 </html>
