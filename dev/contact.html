@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Molayem Strategic</title>
+    <link rel="stylesheet" href="css/complete.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>MOLAYEM <span class="strategic">STRATEGIC</span></h1>
+                </div>
+                
+                <!-- Main Navigation -->
+                <div class="main-navigation">
+                    <ul class="nav-menu">
+                        <li><a href="home.html" class="nav-link" data-translate="nav.home">Home</a></li>
+                        <li><a href="solutions.html" class="nav-link" data-translate="nav.solutions">Solutions</a></li>
+                        <li><a href="about.html" class="nav-link" data-translate="nav.about">About</a></li>
+                        <li><a href="clients.html" class="nav-link" data-translate="nav.clients">Clients</a></li>
+                        <li><a href="contact.html" class="nav-link active contact-btn" data-translate="nav.contact">Contact</a></li>
+                    </ul>
+                    
+                    <!-- Mobile Menu Toggle -->
+                    <div class="mobile-menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="it">IT</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu">
+                <ul class="mobile-nav-menu">
+                    <li><a href="home.html" class="mobile-nav-link" data-translate="nav.home">Home</a></li>
+                    <li><a href="solutions.html" class="mobile-nav-link" data-translate="nav.solutions">Solutions</a></li>
+                    <li><a href="about.html" class="mobile-nav-link" data-translate="nav.about">About</a></li>
+                    <li><a href="clients.html" class="mobile-nav-link" data-translate="nav.clients">Clients</a></li>
+                    <li><a href="contact.html" class="mobile-nav-link" data-translate="nav.contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="page-title" data-translate="contact.hero.title">Contattaci</h1>
+                <p class="page-subtitle" data-translate="contact.hero.subtitle">
+                    Pronti a trasformare i tuoi dati in vantaggio strategico? 
+                    Parliamo del tuo progetto con i nostri esperti di data analytics
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="content-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title" data-translate="contact.info.title">Inizia la Conversazione</h2>
+                    <p data-translate="contact.info.subtitle">
+                        Ogni progetto di data analytics inizia con la comprensione delle tue sfide uniche. 
+                        Il nostro team di esperti è pronto ad ascoltare le tue esigenze e progettare 
+                        soluzioni su misura per la tua istituzione.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <h3 data-translate="contact.phone.title">Chiamaci</h3>
+                                <p>+39 06 1234 5678</p>
+                                <p style="color: #888; font-size: 0.9rem;" data-translate="contact.phone.hours">Lun-Ven 9:00-18:00</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <h3 data-translate="contact.email.title">Email</h3>
+                                <p>info@molayemstrategic.com</p>
+                                <p style="color: #888; font-size: 0.9rem;" data-translate="contact.email.response">Risposta in 24h</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <span class="contact-icon">🏢</span>
+                            <div>
+                                <h3 data-translate="contact.office.title">Sede Centrale</h3>
+                                <p>Via del Corso 123<br>00186 Roma, Italia</p>
+                                <p style="color: #888; font-size: 0.9rem;" data-translate="contact.office.appointment">Su appuntamento</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <span class="contact-icon">🌍</span>
+                            <div>
+                                <h3 data-translate="contact.europe.title">Uffici Europei</h3>
+                                <p>Bruxelles • Madrid • Berlin</p>
+                                <p style="color: #888; font-size: 0.9rem;" data-translate="contact.europe.support">Supporto locale</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 3rem;">
+                        <h3 style="color: #00aaff;" data-translate="contact.urgent.title">Necessità Urgenti?</h3>
+                        <p data-translate="contact.urgent.desc">
+                            Per richieste critiche e supporto d'emergenza, contatta il nostro team 24/7:
+                        </p>
+                        <p style="color: #ffcc00; font-weight: bold; font-size: 1.2rem;">
+                            📞 +39 800 123 456 (Emergency Line)
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <h3 data-translate="contact.form.title">Richiedi Informazioni</h3>
+                        <p data-translate="contact.form.subtitle">Compila il form per una consulenza gratuita</p>
+                        
+                        <div class="form-group">
+                            <label for="organization" data-translate="contact.form.organization">Istituzione/Ente *</label>
+                            <input type="text" id="organization" name="organization" required
+                                   placeholder="es. Ministero dell'Interno">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName" data-translate="contact.form.firstName">Nome *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="lastName" data-translate="contact.form.lastName">Cognome *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="role" data-translate="contact.form.role">Ruolo/Posizione *</label>
+                            <select id="role" name="role" required>
+                                <option value="" data-translate="contact.form.role.select">Seleziona il tuo ruolo</option>
+                                <option value="cio" data-translate="contact.form.role.cio">CIO/CTO/Responsabile IT</option>
+                                <option value="director" data-translate="contact.form.role.director">Direttore Generale</option>
+                                <option value="manager" data-translate="contact.form.role.manager">Manager/Dirigente</option>
+                                <option value="analyst" data-translate="contact.form.role.analyst">Analista/Ricercatore</option>
+                                <option value="procurement" data-translate="contact.form.role.procurement">Responsabile Acquisti</option>
+                                <option value="other" data-translate="contact.form.role.other">Altro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email" data-translate="contact.form.email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone" data-translate="contact.form.phone">Telefono</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="sector" data-translate="contact.form.sector">Settore di Interesse *</label>
+                            <select id="sector" name="sector" required>
+                                <option value="" data-translate="contact.form.sector.select">Seleziona il settore</option>
+                                <option value="central" data-translate="contact.form.sector.central">Amministrazione Centrale</option>
+                                <option value="regional" data-translate="contact.form.sector.regional">Enti Territoriali</option>
+                                <option value="healthcare" data-translate="contact.form.sector.healthcare">Sanità Pubblica</option>
+                                <option value="education" data-translate="contact.form.sector.education">Istruzione</option>
+                                <option value="justice" data-translate="contact.form.sector.justice">Giustizia</option>
+                                <option value="european" data-translate="contact.form.sector.european">Istituzioni Europee</option>
+                                <option value="other" data-translate="contact.form.sector.other">Altro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interest" data-translate="contact.form.interest">Area di Interesse *</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interest" value="fraud-detection">
+                                    <span data-translate="contact.form.interest.fraud">Fraud Detection & Risk Management</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interest" value="budget-optimization">
+                                    <span data-translate="contact.form.interest.budget">Budget Optimization</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interest" value="smart-city">
+                                    <span data-translate="contact.form.interest.smart">Smart City Analytics</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interest" value="healthcare">
+                                    <span data-translate="contact.form.interest.healthcare">Healthcare Analytics</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interest" value="compliance">
+                                    <span data-translate="contact.form.interest.compliance">Compliance & Audit</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interest" value="custom">
+                                    <span data-translate="contact.form.interest.custom">Soluzione Personalizzata</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget" data-translate="contact.form.budget">Budget Indicativo</label>
+                            <select id="budget" name="budget">
+                                <option value="" data-translate="contact.form.budget.select">Seleziona range budget</option>
+                                <option value="50k-100k" data-translate="contact.form.budget.50k">€50k - €100k</option>
+                                <option value="100k-250k" data-translate="contact.form.budget.100k">€100k - €250k</option>
+                                <option value="250k-500k" data-translate="contact.form.budget.250k">€250k - €500k</option>
+                                <option value="500k-1m" data-translate="contact.form.budget.500k">€500k - €1M</option>
+                                <option value="1m+" data-translate="contact.form.budget.1m">€1M+</option>
+                                <option value="tbd" data-translate="contact.form.budget.tbd">Da definire</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline" data-translate="contact.form.timeline">Timeline Progetto</label>
+                            <select id="timeline" name="timeline">
+                                <option value="" data-translate="contact.form.timeline.select">Quando vuoi iniziare?</option>
+                                <option value="asap" data-translate="contact.form.timeline.asap">Il prima possibile</option>
+                                <option value="1-3-months" data-translate="contact.form.timeline.1-3">Entro 1-3 mesi</option>
+                                <option value="3-6-months" data-translate="contact.form.timeline.3-6">Entro 3-6 mesi</option>
+                                <option value="6-12-months" data-translate="contact.form.timeline.6-12">Entro 6-12 mesi</option>
+                                <option value="planning" data-translate="contact.form.timeline.planning">Fase di pianificazione</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" data-translate="contact.form.message">Descrizione del Progetto *</label>
+                            <textarea id="message" name="message" rows="6" required
+                                      placeholder="Descrivici la tua sfida, gli obiettivi e le aspettative specifiche..." data-translate="contact.form.message.placeholder"></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="privacy" required>
+                                <span data-translate="contact.form.privacy">Accetto il trattamento dei dati personali secondo la Privacy Policy GDPR *</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter">
+                                <span data-translate="contact.form.newsletter">Voglio ricevere aggiornamenti su soluzioni e case studies</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="form-submit" data-translate="contact.form.submit">
+                            Invia Richiesta 
+                            <span style="margin-left: 0.5rem;">🚀</span>
+                        </button>
+                        
+                        <p style="text-align: center; color: #888; font-size: 0.9rem; margin-top: 1rem;" data-translate="contact.form.response">
+                            Ti risponderemo entro 24 ore con una proposta personalizzata
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Locations -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.offices.title">Le Nostre Sedi</h2>
+            <p class="section-subtitle" data-translate="contact.offices.subtitle">
+                Presenza capillare in Europa per supporto locale e partnership strategiche
+            </p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                        <span style="font-size: 2rem; margin-right: 1rem;">🇮🇹</span>
+                        <h3 data-translate="contact.office.rome.title">Roma - Headquarters</h3>
+                    </div>
+                    <div style="color: #cccccc; line-height: 1.6;">
+                        <p><strong data-translate="contact.office.address">Indirizzo:</strong></p>
+                        <p>Via del Corso 123<br>00186 Roma, Italia</p>
+                        <p style="margin-top: 1rem;"><strong data-translate="contact.office.specialization">Specializzazioni:</strong></p>
+                        <p data-translate="contact.office.rome.spec">
+                            • Amministrazioni Centrali<br>
+                            • Ministeri e Agenzie Governative<br>
+                            • Enti di Controllo e Vigilanza
+                        </p>
+                        <p style="margin-top: 1rem;"><strong data-translate="contact.office.contact">Contatto:</strong> roma@molayemstrategic.com</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                        <span style="font-size: 2rem; margin-right: 1rem;">🇧🇪</span>
+                        <h3 data-translate="contact.office.brussels.title">Bruxelles - EU Hub</h3>
+                    </div>
+                    <div style="color: #cccccc; line-height: 1.6;">
+                        <p><strong data-translate="contact.office.address">Indirizzo:</strong></p>
+                        <p>Avenue Louise 456<br>1050 Brussels, Belgium</p>
+                        <p style="margin-top: 1rem;"><strong data-translate="contact.office.specialization">Specializzazioni:</strong></p>
+                        <p data-translate="contact.office.brussels.spec">
+                            • Istituzioni Europee<br>
+                            • Cross-border Analytics<br>
+                            • GDPR & Compliance
+                        </p>
+                        <p style="margin-top: 1rem;"><strong data-translate="contact.office.contact">Contatto:</strong> brussels@molayemstrategic.com</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                        <span style="font-size: 2rem; margin-right: 1rem;">🇪🇸</span>
+                        <h3 data-translate="contact.office.madrid.title">Madrid - Iberian Office</h3>
+                    </div>
+                    <div style="color: #cccccc; line-height: 1.6;">
+                        <p><strong data-translate="contact.office.address">Indirizzo:</strong></p>
+                        <p>Calle Alcalá 789<br>28014 Madrid, España</p>
+                        <p style="margin-top: 1rem;"><strong data-translate="contact.office.specialization">Specializzazioni:</strong></p>
+                        <p data-translate="contact.office.madrid.spec">
+                            • Smart Cities<br>
+                            • Healthcare Analytics<br>
+                            • Regional Government
+                        </p>
+                        <p style="margin-top: 1rem;"><strong data-translate="contact.office.contact">Contatto:</strong> madrid@molayemstrategic.com</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                        <span style="font-size: 2rem; margin-right: 1rem;">🇩🇪</span>
+                        <h3 data-translate="contact.office.berlin.title">Berlin - DACH Region</h3>
+                    </div>
+                    <div style="color: #cccccc; line-height: 1.6;">
+                        <p><strong data-translate="contact.office.address">Indirizzo:</strong></p>
+                        <p>Unter den Linden 321<br>10117 Berlin, Deutschland</p>
+                        <p style="margin-top: 1rem;"><strong data-translate="contact.office.specialization">Specializzazioni:</strong></p>
+                        <p data-translate="contact.office.berlin.spec">
+                            • Digital Government<br>
+                            • Industry 4.0 per PA<br>
+                            • Federal Institutions
+                        </p>
+                        <p style="margin-top: 1rem;"><strong data-translate="contact.office.contact">Contatto:</strong> berlin@molayemstrategic.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meeting Options -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.meeting.title">Opzioni di Incontro</h2>
+            
+            <div class="services-grid">
+                <div class="service-card" style="text-align: center;">
+                    <span style="font-size: 3rem; display: block; margin-bottom: 1rem;">💻</span>
+                    <h3 data-translate="contact.meeting.virtual.title">Consulenza Virtuale</h3>
+                    <p data-translate="contact.meeting.virtual.desc">
+                        Meeting online sicuro con demo personalizzata delle soluzioni. 
+                        Screen sharing protetto e presentazioni confidenziali.
+                    </p>
+                    <div style="margin-top: 1.5rem;">
+                        <button style="background: #00aaff; color: white; border: none; padding: 1rem 2rem; border-radius: 5px; cursor: pointer;" data-translate="contact.meeting.virtual.book">
+                            Prenota Chiamata
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-card" style="text-align: center;">
+                    <span style="font-size: 3rem; display: block; margin-bottom: 1rem;">🏢</span>
+                    <h3 data-translate="contact.meeting.office.title">Incontro in Sede</h3>
+                    <p data-translate="contact.meeting.office.desc">
+                        Visita presso i nostri uffici per workshop approfonditi 
+                        e demonstration delle piattaforme in ambiente sicuro.
+                    </p>
+                    <div style="margin-top: 1.5rem;">
+                        <button style="background: #00aaff; color: white; border: none; padding: 1rem 2rem; border-radius: 5px; cursor: pointer;" data-translate="contact.meeting.office.book">
+                            Prenota Appuntamento
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="service-card" style="text-align: center;">
+                    <span style="font-size: 3rem; display: block; margin-bottom: 1rem;">🎯</span>
+                    <h3 data-translate="contact.meeting.onsite.title">Visita On-Site</h3>
+                    <p data-translate="contact.meeting.onsite.desc">
+                        I nostri esperti vengono presso la tua istituzione 
+                        per assessment personalizzato e workshop dedicato.
+                    </p>
+                    <div style="margin-top: 1.5rem;">
+                        <button style="background: #00aaff; color: white; border: none; padding: 1rem 2rem; border-radius: 5px; cursor: pointer;" data-translate="contact.meeting.onsite.book">
+                            Richiedi Visita
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support and SLA -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.support.title">Supporto e SLA</h2>
+            <p class="section-subtitle" data-translate="contact.support.subtitle">
+                Garanzie di servizio e supporto dedicato per le istituzioni pubbliche
+            </p>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label" data-translate="contact.support.availability">Disponibilità</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">15min</span>
+                    <span class="stat-label" data-translate="contact.support.response">Tempo Risposta</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">99.9%</span>
+                    <span class="stat-label" data-translate="contact.support.uptime">Uptime SLA</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">ISO27001</span>
+                    <span class="stat-label" data-translate="contact.support.security">Sicurezza</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="content-section" style="background: linear-gradient(135deg, rgba(0, 170, 255, 0.1), rgba(255, 204, 0, 0.05)); text-align: center;">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.final.title">Iniziamo Insieme il Tuo Progetto</h2>
+            <p class="section-subtitle" data-translate="contact.final.subtitle">
+                Il primo passo verso la trasformazione digitale della tua istituzione 
+                inizia con una semplice conversazione
+            </p>
+            
+            <div style="margin-top: 3rem;">
+                <p style="font-size: 1.5rem; color: #ffcc00; font-weight: bold; margin-bottom: 2rem;">
+                    📞 +39 06 1234 5678
+                </p>
+                <p style="color: #cccccc; margin-bottom: 2rem;" data-translate="contact.final.immediate">
+                    Per discussioni immediate e supporto personalizzato
+                </p>
+                <div>
+                    <button onclick="scrollToForm()" style="background: #00aaff; color: white; border: none; padding: 1.5rem 3rem; border-radius: 5px; cursor: pointer; font-size: 1.2rem; margin-right: 1rem;" data-translate="contact.final.form">
+                        Compila il Form
+                    </button>
+                    <a href="solutions.html" style="display: inline-block; background: transparent; border: 2px solid #00aaff; color: #00aaff; padding: 1.5rem 3rem; border-radius: 5px; text-decoration: none; font-size: 1.2rem;" data-translate="contact.final.solutions">
+                        Esplora le Soluzioni
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div style="text-align: center; padding: 2rem 0;">
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="color: #00aaff; font-family: 'Orbitron', monospace;">MOLAYEM <span style="color: #ffcc00;">STRATEGIC</span></h3>
+                    <p style="color: #cccccc; margin-top: 1rem;" data-translate="footer.tagline">Augmented Data Analytics per il Settore Pubblico</p>
+                </div>
+                
+                <div style="border-top: 1px solid rgba(0, 170, 255, 0.2); padding-top: 2rem;">
+                    <p>&copy; 2025 Molayem Strategic. <span data-translate="footer.rights">Tutti i diritti riservati.</span></p>
+                    <p style="margin-top: 0.5rem; color: #888;" data-translate="footer.disclaimer">Specialisti in Data Analytics per Istituzioni Governative e Federali</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/complete.js"></script>
+    <script>
+        function scrollToForm() {
+            document.querySelector('.contact-form-container').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+        
+        // Form validation and handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            
+            // Check required checkboxes
+            const interests = formData.getAll('interest');
+            if (interests.length === 0) {
+                alert('Seleziona almeno un\'area di interesse');
+                return;
+            }
+            
+            // Privacy checkbox is required
+            if (!formData.get('privacy')) {
+                alert('Devi accettare la Privacy Policy per continuare');
+                return;
+            }
+            
+            // Simulate form submission
+            const submitButton = document.querySelector('.form-submit');
+            const originalText = submitButton.innerHTML;
+            
+            submitButton.innerHTML = 'Invio in corso... ⏳';
+            submitButton.disabled = true;
+            
+            setTimeout(() => {
+                alert('Richiesta inviata con successo! Ti contatteremo entro 24 ore.');
+                this.reset();
+                submitButton.innerHTML = originalText;
+                submitButton.disabled = false;
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
