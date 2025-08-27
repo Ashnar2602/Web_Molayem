@@ -1,11 +1,86 @@
-/* Extended styles for complete pages */
-@import url('../style.css');
+/* Complete standalone CSS for dev pages - Molayem Strategic */
 
-/* Logo Styles - Enhanced for complete pages */
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #000000;
+    color: #ffffff;
+    line-height: 1.6;
+    overflow-x: hidden;
+    padding-top: 80px; /* Account for fixed header */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #00aaff;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 2rem;
+}
+
+/* Logo Styles */
 .logo {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(0, 170, 255, 0.3));
+    transition: all 0.3s ease;
+}
+
+.logo-image:hover {
+    filter: drop-shadow(0 0 20px rgba(0, 170, 255, 0.6)) brightness(1.1);
+    transform: scale(1.05);
+}
+
+.logo-text {
+    font-family: 'Orbitron', monospace;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #00aaff;
+    text-shadow: 0 0 20px rgba(0, 170, 255, 0.5);
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.strategic {
+    color: #ffcc00;
+    text-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
 }
 
 .logo-image {
@@ -384,4 +459,165 @@
     .hero-section {
         padding: 4rem 0;
     }
+}
+
+/* Additional Essential Styles */
+.main-navigation {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    align-items: center;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: #00aaff;
+    text-shadow: 0 0 10px rgba(0, 170, 255, 0.6);
+}
+
+.nav-link.active {
+    color: #00aaff;
+    text-shadow: 0 0 15px rgba(0, 170, 255, 0.8);
+}
+
+.nav-link.contact-btn {
+    background: linear-gradient(45deg, #00aaff, #0088cc);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(0, 170, 255, 0.3);
+}
+
+.nav-link.contact-btn:hover {
+    background: linear-gradient(45deg, #0088cc, #0066aa);
+    box-shadow: 0 6px 25px rgba(0, 170, 255, 0.5);
+    transform: translateY(-2px);
+    color: #ffffff;
+}
+
+/* Mobile Menu */
+.mobile-menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.mobile-menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background: #00aaff;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.98);
+    border-top: 1px solid #00aaff;
+}
+
+.mobile-nav-menu {
+    list-style: none;
+    padding: 2rem;
+}
+
+.mobile-nav-link {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 170, 255, 0.2);
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.mobile-nav-link:hover {
+    color: #00aaff;
+    padding-left: 1rem;
+}
+
+/* Language Switcher */
+.language-switcher {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.lang-btn {
+    background: transparent;
+    color: #cccccc;
+    border: 1px solid #333333;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.lang-btn.active,
+.lang-btn:hover {
+    color: #00aaff;
+    border-color: #00aaff;
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.3);
+}
+
+/* Feature Cards for Homepage */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    background: rgba(0, 170, 255, 0.05);
+    border-color: rgba(0, 170, 255, 0.3);
+    transform: translateY(-3px);
+}
+
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.feature-card h4 {
+    color: #00aaff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.feature-card p {
+    color: #cccccc;
+    line-height: 1.6;
 }
