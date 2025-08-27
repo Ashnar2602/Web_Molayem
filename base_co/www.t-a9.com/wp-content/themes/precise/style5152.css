@@ -1,0 +1,13 @@
+/*
+Theme Name: precise
+Theme URI: jrbthemes.com/
+Author: JRB Team
+Version: 1.0
+Text Domain: precise
+*/
+.section-full-stack .stack-content {
+	margin: 12px;
+}
+.section-full-stack .stack-content h3 {
+	height: 60px;
+}

@@ -1,0 +1,78 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 27 Aug 2025 12:59:54 at https://www.t-a9.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps0%s%uN0%I0p3DaK0c3T6R2H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "it, en, *" https://www.t-a9.com/ -O1 "C:\Mie pagine Web\2 - 9ta" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:01:08	Error: 	"Not Found" (404) at link https://www.t-a9.com/xmlrpc.php?rsd (from https://www.t-a9.com/)
+13:01:08	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2F (from https://www.t-a9.com/)
+13:01:08	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2F&format=xml (from https://www.t-a9.com/)
+13:01:08	Error: 	"Bad Request" (400) at link https://www.t-a9.com/wp-admin/admin-ajax.php (from https://www.t-a9.com/)
+13:01:25	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise/assets/lib/particles/particles.min.js?ver=6.4.6 (from https://www.t-a9.com/)
+13:01:25	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.t-a9.com/wp-content/themes/precise/assets/lib/loading/modernizr.min.js?ver=6.4.6 (from https://www.t-a9.com/)
+13:01:25	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.t-a9.com/wp-content/themes/precise/assets/lib/Magnificpopup/magnificpopup.min.js?ver=6.4.6 (from https://www.t-a9.com/)
+13:01:55	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise/assets/lib/owl-carousel/css/owl.video.play.png (from https://www.t-a9.com/wp-content/themes/precise/assets/lib/owl-carousel/css/owl.carousel.min.css?ver=6.4.6)
+13:01:55	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.t-a9.com/wp-content/themes/precise/assets/lib/lightGallery/dist/fonts/lg.ttf?n1z373 (from https://www.t-a9.com/wp-content/themes/precise/assets/lib/lightGallery/dist/css/lightgallery.min.css?ver=6.4.6)
+13:01:55	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/uploads/2021/04/Mask-Group-33-1.png (from https://www.t-a9.com/wp-content/themes/precise/assets/css/style.css?ver=6.4.6)
+13:01:55	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/uploads/2021/04/z2429850386727_c879ede50c68dea06438857d58c7d05d.jpg (from https://www.t-a9.com/wp-content/themes/precise/assets/css/style.css?ver=6.4.6)
+13:01:55	Warning: 	Moved Permanently for https://www.t-a9.com/?p=154
+13:01:55	Warning: 	File has moved from https://www.t-a9.com/?p=154 to https://www.t-a9.com/solution/
+13:01:55	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fsolution%2F (from https://www.t-a9.com/solution/)
+13:01:55	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fsolution%2F&format=xml (from https://www.t-a9.com/solution/)
+13:01:55	Error: 	"Not Found" (404) at link https://threejs.org/examples/js/libs/stats.min.js (from https://www.t-a9.com/solution/)
+13:01:55	Warning: 	Moved Permanently for https://www.t-a9.com/?p=215
+13:01:55	Warning: 	File has moved from https://www.t-a9.com/?p=215 to https://www.t-a9.com/relationship/
+13:01:55	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Frelationship%2F (from https://www.t-a9.com/relationship/)
+13:01:55	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Frelationship%2F&format=xml (from https://www.t-a9.com/relationship/)
+13:01:55	Warning: 	Moved Permanently for https://www.t-a9.com/?p=291
+13:01:55	Warning: 	File has moved from https://www.t-a9.com/?p=291 to https://www.t-a9.com/about/
+13:01:55	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fabout%2F (from https://www.t-a9.com/about/)
+13:01:55	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fabout%2F&format=xml (from https://www.t-a9.com/about/)
+13:01:55	Error: 	"Not Found" (404) at link https://www.t-a9.com/our-team/ (from https://www.t-a9.com/about/)
+13:01:55	Warning: 	Moved Permanently for https://www.t-a9.com/?p=309
+13:01:55	Warning: 	File has moved from https://www.t-a9.com/?p=309 to https://www.t-a9.com/careers/
+13:01:55	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fcareers%2F (from https://www.t-a9.com/careers/)
+13:01:55	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fcareers%2F&format=xml (from https://www.t-a9.com/careers/)
+13:02:03	Warning: 	Moved Permanently for https://www.t-a9.com/?p=1342
+13:02:03	Warning: 	File has moved from https://www.t-a9.com/?p=1342 to https://www.t-a9.com/user-guide/
+13:02:03	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fuser-guide%2F (from https://www.t-a9.com/user-guide/)
+13:02:03	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fuser-guide%2F&format=xml (from https://www.t-a9.com/user-guide/)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/clients/ (from https://cdn.glassix.net/clients/whatsapp.widget.1.2.min.js)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/$&/ (from https://cdn.glassix.net/clients/whatsapp.widget.1.2.min.js)
+13:02:03	Warning: 	Moved Permanently for https://www.t-a9.com/?p=447
+13:02:03	Warning: 	File has moved from https://www.t-a9.com/?p=447 to https://www.t-a9.com/terms-conditions/
+13:02:03	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fterms-conditions%2F (from https://www.t-a9.com/terms-conditions/)
+13:02:03	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fterms-conditions%2F&format=xml (from https://www.t-a9.com/terms-conditions/)
+13:02:03	Warning: 	Moved Permanently for https://www.t-a9.com/?p=449
+13:02:03	Warning: 	File has moved from https://www.t-a9.com/?p=449 to https://www.t-a9.com/privacy-policy/
+13:02:03	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fprivacy-policy%2F (from https://www.t-a9.com/privacy-policy/)
+13:02:03	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fprivacy-policy%2F&format=xml (from https://www.t-a9.com/privacy-policy/)
+13:02:03	Warning: 	Moved Permanently for https://www.t-a9.com/?p=3074
+13:02:03	Warning: 	File has moved from https://www.t-a9.com/?p=3074 to https://www.t-a9.com/technical-customer-support/
+13:02:03	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Ftechnical-customer-support%2F (from https://www.t-a9.com/technical-customer-support/)
+13:02:03	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Ftechnical-customer-support%2F&format=xml (from https://www.t-a9.com/technical-customer-support/)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/our-team (from https://www.t-a9.com/technical-customer-support/)
+13:02:03	Warning: 	Moved Permanently for https://www.t-a9.com/?p=1279
+13:02:03	Warning: 	File has moved from https://www.t-a9.com/?p=1279 to https://www.t-a9.com/qa-team-lead/
+13:02:03	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fqa-team-lead%2F (from https://www.t-a9.com/QA%20Team%20Lead/)
+13:02:03	Error: 	"Unauthorized" (401) at link https://www.t-a9.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.t-a9.com%2Fqa-team-lead%2F&format=xml (from https://www.t-a9.com/QA%20Team%20Lead/)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-brands-400.eot (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-brands-400.eot? (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-brands-400.woff2 (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-brands-400.woff (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-brands-400.ttf (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-brands-400.svg (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-regular-400.eot (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-regular-400.eot? (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-regular-400.woff2 (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-regular-400.woff (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-regular-400.ttf (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-regular-400.svg (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-solid-900.eot (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-solid-900.eot? (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+13:02:03	Error: 	"Not Found" (404) at link https://www.t-a9.com/wp-content/themes/precise-child/assets/webfonts/fa-solid-900.svg (from https://www.t-a9.com/wp-content/themes/precise-child/assets/css/icons.css?ver=6.4.6)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 9 seconds : 293 links scanned, 235 files written (100351864 bytes overall) [98886043 bytes received at 766558 bytes/sec], 3007574 bytes transferred using HTTP compression in 77 files, ratio 22%, 10.7 requests per connection
+(46 errors, 21 warnings, 0 messages)

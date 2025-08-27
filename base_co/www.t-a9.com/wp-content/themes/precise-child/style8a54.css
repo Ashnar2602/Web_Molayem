@@ -1,0 +1,82 @@
+/*
+
+Theme Name: Precise Child
+
+Theme URI: https://www.galaxyweblinks.com/
+
+Description: Precise Child Theme by Galaxy Weblinks
+
+Author: Galaxy Weblinks
+
+Author URI: https://www.galaxyweblinks.com/
+
+Template: precise
+
+Version: 1.0.0
+
+License: GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+
+.wp-video, video.wp-video-shortcode, .mejs-container, .mejs-overlay.load {
+ width: 100% !important;
+ height: 100% !important;
+}
+
+.mejs-container {
+ padding-top: 56.25%;
+}
+
+.wp-video, video.wp-video-shortcode {
+ max-width: 100% !important;
+}
+
+video.wp-video-shortcode {
+ position: relative;
+}
+
+.mejs-mediaelement {
+ position: absolute;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+}
+
+.mejs-controls {
+ display: none;
+}
+
+.mejs-overlay-play {
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ width: auto !important;
+ height: auto !important;
+}
+
+iframe {
+ max-width: 100%;
+ width: 100%;
+ height: 585px;
+}
+
+.sidebar_post_list .page-content .inner_detail .search-field .site-logo img {
+    object-fit: contain;
+}
+
+.sidebar_post_list .page-content.markdown-single-page .inner-content-markdown .table-of-contents .content-list {
+  width: max-content !important;
+  max-width: 100%;
+}
+
+@media only screen and (max-width:1024px) {
+iframe {
+  width: 100vw;
+  height: calc(100vw/1.77);
+ } 
+}
